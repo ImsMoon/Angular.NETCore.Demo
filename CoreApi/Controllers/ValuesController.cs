@@ -22,7 +22,7 @@ namespace CoreApi.Controllers
         }
 
 
-        // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> Get()
         {
